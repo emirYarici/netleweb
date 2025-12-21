@@ -113,7 +113,7 @@ export default function LandingPage() {
                             Matematik
                           </div>
                           <div className="text-sm text-gray-600">
-                            25 soru çözüldü
+                            30 soru çözüldü
                           </div>
                         </div>
                       </div>
