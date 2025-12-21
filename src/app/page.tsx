@@ -146,7 +146,7 @@ export default function LandingPage() {
                         </div>
                         <div>
                           <div className="font-medium text-gray-900">
-                            7 Günlük Seri
+                            10 Günlük Seri
                           </div>
                           <div className="text-sm text-gray-600">
                             Böyle devam!
