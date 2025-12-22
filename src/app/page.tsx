@@ -18,9 +18,7 @@ export default function LandingPage() {
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-semibold text-gray-900">
-                YKS Takip
-              </span>
+              <span className="text-xl font-semibold text-gray-900">NETLE</span>
             </div>
             <nav className="hidden md:flex items-center gap-6">
               {/* <a
