@@ -1,3 +1,6 @@
+import Antigravity from "@/components/Antigravity";
+import LightPillar from "@/components/LightPillart";
+import LightRays from "@/components/Lights";
 import {
   BookOpen,
   Target,
@@ -45,125 +48,132 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 lg:py-32">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-sm font-medium">
-                <Target className="w-4 h-4" />
-                YKS Öğrencileri İçin
-              </div>
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-gray-900 text-balance">
-                Başarıya Giden Yolculuğunu Takip Et
-              </h1>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Kapsamlı YKS sınav hazırlık takip sistemimizle organize,
-                odaklanmış ve motive kal. İlerlemenizi izleyin, zor soruları
-                çözün ve üniversite hayallerinize ulaşın.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-blue-600 text-white text-base font-medium hover:bg-blue-700 transition-all">
-                  Ücretsiz Başla
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </button>
-                <button className="inline-flex items-center justify-center h-10 px-6 rounded-md border border-gray-300 bg-white text-gray-900 text-base font-medium hover:bg-gray-50 transition-all">
-                  Demo İzle
-                </button>
-              </div>
-              <div className="flex items-center gap-6 pt-4">
-                <div>
-                  <div className="text-2xl font-bold text-gray-900">10K+</div>
-                  <div className="text-sm text-gray-600">Aktif Öğrenci</div>
+      <div className="flex flex-1 relative">
+        <div className="flex w-full absolute  h-full">
+          <LightPillar />
+        </div>
+        <section className="py-20 lg:py-32 flex">
+          <div className="container mx-auto px-4 lg:px-8 pointer-none:">
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-sm font-medium">
+                  <Target className="w-4 h-4" />
+                  YKS Öğrencileri İçin
                 </div>
-                <div className="w-px h-12 bg-gray-200" />
-                <div>
-                  <div className="text-2xl font-bold text-gray-900">50K+</div>
-                  <div className="text-sm text-gray-600">Takip Edilen Soru</div>
+                <h1 className="text-4xl lg:text-6xl font-bold leading-tight text-white text-balance">
+                  Başarıya Giden Yolculuğunu Takip Et
+                </h1>
+                <p className="text-lg text-white leading-relaxed">
+                  Kapsamlı YKS sınav hazırlık takip sistemimizle organize,
+                  odaklanmış ve motive kal. İlerlemenizi izleyin, zor soruları
+                  çözün ve üniversite hayallerinize ulaşın.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-blue-600 text-white text-base font-medium hover:bg-blue-700 transition-all">
+                    Ücretsiz Başla
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </button>
+                  <button className="inline-flex items-center justify-center h-10 px-6 rounded-md border border-gray-300 bg-white text-gray-900 text-base font-medium hover:bg-gray-50 transition-all">
+                    Demo İzle
+                  </button>
                 </div>
-              </div>
-            </div>
-
-            <div className="relative">
-              <div className="relative bg-white border border-gray-200 rounded-2xl p-6 shadow-lg">
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between pb-4 border-b border-gray-200">
-                    <div>
-                      <div className="text-sm text-gray-600">
-                        Bugünün İlerlemesi
-                      </div>
-                      <div className="text-2xl font-bold text-gray-900">
-                        12/15 Soru
-                      </div>
-                    </div>
-                    <div className="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center">
-                      <TrendingUp className="w-8 h-8 text-purple-600" />
+                {/* <div className="flex items-center gap-6 pt-4">
+                  <div>
+                    <div className="text-2xl font-bold text-gray-900">10K+</div>
+                    <div className="text-sm text-gray-600">Aktif Öğrenci</div>
+                  </div>
+                  <div className="w-px h-12 bg-gray-200" />
+                  <div>
+                    <div className="text-2xl font-bold text-gray-900">50K+</div>
+                    <div className="text-sm text-gray-600">
+                      Takip Edilen Soru
                     </div>
                   </div>
+                </div> */}
+              </div>
 
-                  <div className="space-y-3">
-                    <div className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
-                          <BookOpen className="w-5 h-5 text-blue-600" />
+              <div className="relative">
+                <div className="relative bg-white border border-gray-200 rounded-2xl p-6 shadow-lg">
+                  <div className="space-y-4">
+                    <div className="flex items-center justify-between pb-4 border-b border-gray-200">
+                      <div>
+                        <div className="text-sm text-gray-600">
+                          Bugünün İlerlemesi
                         </div>
-                        <div>
-                          <div className="font-medium text-gray-900">
-                            Matematik
-                          </div>
-                          <div className="text-sm text-gray-600">
-                            30 soru çözüldü
-                          </div>
+                        <div className="text-2xl font-bold text-gray-900">
+                          12/15 Soru
                         </div>
                       </div>
-                      <CheckCircle className="w-5 h-5 text-purple-600" />
-                    </div>
-
-                    <div className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
-                          <Target className="w-5 h-5 text-blue-600" />
-                        </div>
-                        <div>
-                          <div className="font-medium text-gray-900">
-                            Günlük Hedef
-                          </div>
-                          <div className="text-sm text-gray-600">
-                            %80 tamamlandı
-                          </div>
-                        </div>
-                      </div>
-                      <div className="text-sm font-medium text-purple-600">
-                        12/15
+                      <div className="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center">
+                        <TrendingUp className="w-8 h-8 text-purple-600" />
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center">
-                          <Award className="w-5 h-5 text-purple-600" />
+                    <div className="space-y-3">
+                      <div className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
+                            <BookOpen className="w-5 h-5 text-blue-600" />
+                          </div>
+                          <div>
+                            <div className="font-medium text-gray-900">
+                              Matematik
+                            </div>
+                            <div className="text-sm text-gray-600">
+                              30 soru çözüldü
+                            </div>
+                          </div>
                         </div>
-                        <div>
-                          <div className="font-medium text-gray-900">
-                            10 Günlük Seri
+                        <CheckCircle className="w-5 h-5 text-purple-600" />
+                      </div>
+
+                      <div className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
+                            <Target className="w-5 h-5 text-blue-600" />
                           </div>
-                          <div className="text-sm text-gray-600">
-                            Böyle devam!
+                          <div>
+                            <div className="font-medium text-gray-900">
+                              Günlük Hedef
+                            </div>
+                            <div className="text-sm text-gray-600">
+                              %80 tamamlandı
+                            </div>
                           </div>
+                        </div>
+                        <div className="text-sm font-medium text-purple-600">
+                          12/15
                         </div>
                       </div>
-                      <div className="text-lg">🔥</div>
+
+                      <div className="flex items-center justify-between p-3 rounded-lg bg-gray-50">
+                        <div className="flex items-center gap-3">
+                          <div className="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center">
+                            <Award className="w-5 h-5 text-purple-600" />
+                          </div>
+                          <div>
+                            <div className="font-medium text-gray-900">
+                              10 Günlük Seri
+                            </div>
+                            <div className="text-sm text-gray-600">
+                              Böyle devam!
+                            </div>
+                          </div>
+                        </div>
+                        <div className="text-lg">🔥</div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              {/* Floating elements */}
-              <div className="absolute -top-6 -right-6 w-24 h-24 bg-purple-200 rounded-full blur-3xl" />
-              <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-200 rounded-full blur-3xl" />
+                {/* Floating elements */}
+                <div className="absolute -top-6 -right-6 w-24 h-24 bg-purple-200 rounded-full blur-3xl" />
+                <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-blue-200 rounded-full blur-3xl" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* Features Section */}
       <section id="features" className="py-20 bg-gray-50">
@@ -236,7 +246,7 @@ export default function LandingPage() {
       </section>
 
       {/* How it Works */}
-      <section id="how-it-works" className="py-20">
+      <section id="how-it-works" className="py-20 bg-white">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 text-balance">
@@ -312,14 +322,14 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-gray-200">
+      <footer className="py-12 border-t border-gray-200 bg-white">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                 <BookOpen className="w-5 h-5 text-white" />
               </div>
-              <span className="font-semibold text-gray-900">YKS Takip</span>
+              <span className="font-semibold text-gray-900">Netle</span>
             </div>
             <p className="text-sm text-gray-600">
               © 2025 YKS Takip. Tüm hakları saklıdır.
