@@ -35,7 +35,7 @@ export const Waitlist = () => {
               placeholder="E-posta adresin"
               required
               disabled={isPending}
-              className="flex-1 h-12 px-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent disabled:opacity-50"
+              className="flex-1 h-12 px-4 rounded-lg border-2 border-gray-300  text-black placeholder:text-black/70 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent disabled:opacity-50"
             />
             <button
               type="submit"
