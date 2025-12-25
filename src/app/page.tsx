@@ -1,6 +1,8 @@
 import Antigravity from "@/components/Antigravity";
 import LightPillar from "@/components/LightPillart";
 import LightRays from "@/components/Lights";
+import { Waitlist } from "@/components/waitlist";
+import { sendEmail } from "@/server-actions/send-email";
 import {
   BookOpen,
   Target,
@@ -175,6 +177,7 @@ export default function LandingPage() {
         </section>
       </div>
 
+      <Waitlist />
       {/* Features Section */}
       <section id="features" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 lg:px-8">
