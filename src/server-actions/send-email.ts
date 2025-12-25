@@ -127,8 +127,8 @@ export async function sendEmail(prev, formData: FormData) {
     </div>
     <div class="footer">
       <div class="social-links">
-        <a href="https://tiktok.com/@netle_app">TikTok</a> • 
-        <a href="https://netle.app">Web Sitesi</a>
+        <a href="https://www.instagram.com/netle.app">Instagram</a> • 
+        <a href="https://www.netleapp.com/">Web Sitesi</a>
       </div>
       <p style="margin-top: 20px;">Netlerin bol, zihnin açık olsun!<br><strong>NETLE Ekibi</strong></p>
     </div>
