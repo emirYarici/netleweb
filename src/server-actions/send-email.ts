@@ -122,7 +122,7 @@ export async function sendEmail(prev, formData: FormData) {
       <p>Sıran geldiğinde ve uygulama marketlerde yerini aldığında ilk senin haberin olacak. O zamana kadar süreci yakından takip etmek için topluluğumuza katıl:</p>
       
       <center>
-        <a href="https://instagram.com/netle_app" class="button">Bizi Instagram'da Takip Et</a>
+        <a href="https://instagram.com/netle.app" class="button">Bizi Instagram'da Takip Et</a>
       </center>
     </div>
     <div class="footer">
@@ -130,7 +130,7 @@ export async function sendEmail(prev, formData: FormData) {
         <a href="https://www.instagram.com/netle.app">Instagram</a> • 
         <a href="https://www.netleapp.com/">Web Sitesi</a>
       </div>
-      <p style="margin-top: 20px;">Netlerin bol, zihnin açık olsun!<br><strong>NETLE Ekibi</strong></p>
+      <p style="margin-top: 20px;">Netlerin bol, zihnin açık olsun!!<br><strong>NETLE Ekibi</strong></p>
     </div>
   </div>
 </body>
