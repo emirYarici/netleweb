@@ -35,12 +35,12 @@ export const Waitlist = () => {
               placeholder="E-posta adresin"
               required
               disabled={isPending}
-              className="flex-1 h-12 px-4 rounded-lg border-2 border-gray-300  text-black placeholder:text-black/70 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent disabled:opacity-50"
+              className="flex-1 h-20 px-4 rounded-lg border-2 border-gray-300  text-black placeholder:text-black/70 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent disabled:opacity-50"
             />
             <button
               type="submit"
               disabled={isPending}
-              className="h-12 px-8 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-all whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
+              className="h-20 px-8 rounded-lg bg-blue-600 text-white font-medium hover:bg-blue-700 transition-all whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isPending ? "Kaydediliyor..." : "Katıl"}
             </button>
