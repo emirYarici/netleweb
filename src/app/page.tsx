@@ -11,6 +11,7 @@ import {
   CheckCircle,
   ArrowRight,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function LandingPage() {
   return (
@@ -20,10 +21,12 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <BookOpen className="w-5 h-5 text-white" />
-              </div>
-              <span className="text-xl font-semibold text-gray-900">NETLE</span>
+              <Image
+                src="/home_logo.png"
+                alt="YKS Takip Logo"
+                width={64}
+                height={64}
+              />
             </div>
             <nav className="hidden md:flex items-center gap-6">
               {/* <a
@@ -329,10 +332,12 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <BookOpen className="w-5 h-5 text-white" />
-              </div>
-              <span className="font-semibold text-gray-900">Netle</span>
+              <Image
+                src="/home_logo.png"
+                alt="YKS Takip Logo"
+                width={50}
+                height={50}
+              />
             </div>
             <p className="text-sm text-gray-600">
               © 2025 YKS Takip. Tüm hakları saklıdır.
