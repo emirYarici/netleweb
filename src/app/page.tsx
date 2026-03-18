@@ -12,6 +12,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -78,6 +79,9 @@ export default function LandingPage() {
                     Ücretsiz Başla
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </button>
+                  <Link href="/puan-hesaplama" className="inline-flex items-center justify-center h-10 px-6 rounded-md border border-gray-300 bg-white text-gray-900 text-base font-medium hover:bg-gray-50 transition-all">
+                    Puan Hesapla
+                  </Link>
                   <button className="inline-flex items-center justify-center h-10 px-6 rounded-md border border-gray-300 bg-white text-gray-900 text-base font-medium hover:bg-gray-50 transition-all">
                     Demo İzle
                   </button>

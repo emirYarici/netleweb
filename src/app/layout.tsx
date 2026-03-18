@@ -17,7 +17,32 @@ export const metadata: Metadata = {
   title: "netle",
   description: "netle - Yanlışlarını nete dönüştür!",
   icons: {
-    icon: "/logo.svg",
+    icon: [
+      { url: "/logo-square.svg", type: "image/svg+xml" },
+    ],
+    apple: "/logo-square.svg",
+  },
+  openGraph: {
+    title: "netle",
+    description: "netle - Yanlışlarını nete dönüştür!",
+    url: "https://www.netleapp.com",
+    siteName: "netle",
+    images: [
+      {
+        url: "/home_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "netle logo",
+      },
+    ],
+    locale: "tr_TR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "netle",
+    description: "netle - Yanlışlarını nete dönüştür!",
+    images: ["/home_logo.png"],
   },
 };
 
