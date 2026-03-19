@@ -1,78 +1,56 @@
 export const YKS_DATA = {
+  "2025": {
+    tyt: { turkce: 2.83, sosyal: 2.99, matematik: 3.28, fen: 2.53, base: 145.47 },
+    say: { tyt_tur: 1.20, tyt_sos: 1.27, tyt_mat: 1.39, tyt_fen: 1.07, ayt_mat: 2.89, ayt_fiz: 2.46, ayt_kim: 2.53, ayt_biy: 2.61, base: 132.87 },
+    ea:  { tyt_tur: 1.19, tyt_sos: 1.26, tyt_mat: 1.38, tyt_fen: 1.07, ayt_mat: 2.88, ayt_edb: 2.94, ayt_tar1: 2.53, ayt_cog1: 2.85, base: 129.34 },
+    soz: { tyt_tur: 1.13, tyt_sos: 1.19, tyt_mat: 1.31, tyt_fen: 1.01, ayt_edb: 2.79, ayt_tar1: 2.39, ayt_cog1: 2.70, ayt_tar2: 3.80, ayt_cog2: 2.47, ayt_fel: 3.76, ayt_din: 2.36, base: 129.61 },
+    dil: { tyt_tur: 1.53, tyt_sos: 1.62, tyt_mat: 1.77, tyt_fen: 1.37, ydt: 2.60, base: 105.92 },
+  },
   "2024": {
-    tyt_base: 144.95,
-    say_base: 120.5,
-    ea_base: 122.8,
-    soz_base: 125.2,
-    dil_base: 118.5,
-    tyt: { turkce: 2.91, sosyal: 2.94, matematik: 2.93, fen: 3.15 },
-    ayt_say: { mat: 3.12, fiz: 2.85, kim: 3.07, biy: 3.07 },
-    ayt_ea: { mat: 3.12, edb: 3.05, tar1: 2.84, cog1: 3.31 },
-    ayt_soz: { edb: 3.05, tar1: 2.84, cog1: 3.31, tar2: 2.91, cog2: 2.91, fel: 3.02, din: 3.34 },
-    ayt_dil: { dil: 3.15 },
-    ranks: {
-      tyt: { 500: 1, 450: 15000, 400: 74365, 350: 220000, 300: 417417, 250: 900000, 200: 1825318 },
-      say: { 500: 1, 450: 22000, 400: 75000, 350: 145000, 300: 245000, 250: 400000, 200: 650000 },
-      ea: { 500: 1, 450: 5000, 400: 38000, 350: 110000, 300: 280000, 250: 550000, 200: 1000000 },
-      soz: { 500: 1, 450: 2000, 400: 15000, 350: 65000, 300: 180000, 250: 450000, 200: 1200000 },
-      dil: { 500: 1, 450: 1200, 400: 7500, 350: 22000, 300: 45000, 250: 85000, 200: 150000 }
-    }
+    tyt: { turkce: 2.91, sosyal: 2.94, matematik: 2.93, fen: 3.15, base: 144.953 },
+    say: { tyt_tur: 1.11, tyt_sos: 1.12, tyt_mat: 1.11, tyt_fen: 1.20, ayt_mat: 3.19, ayt_fiz: 2.43, ayt_kim: 3.07, ayt_biy: 2.51, base: 133.28 },
+    ea:  { tyt_tur: 1.14, tyt_sos: 1.15, tyt_mat: 1.15, tyt_fen: 1.23, ayt_mat: 3.28, ayt_edb: 2.83, ayt_tar1: 2.38, ayt_cog1: 2.54, base: 132.28 },
+    soz: { tyt_tur: 1.23, tyt_sos: 1.24, tyt_mat: 1.24, tyt_fen: 1.33, ayt_edb: 3.06, ayt_tar1: 2.57, ayt_cog1: 2.74, ayt_tar2: 3.16, ayt_cog2: 2.82, ayt_fel: 3.85, ayt_din: 3.13, base: 130.36 },
+    dil: { tyt_tur: 1.50, tyt_sos: 1.51, tyt_mat: 1.50, tyt_fen: 1.62, ydt: 2.61, base: 110.58 },
   },
   "2023": {
-    tyt_base: 141.9,
-    say_base: 118.2,
-    ea_base: 120.1,
-    soz_base: 122.5,
-    dil_base: 115.8,
-    tyt: { turkce: 2.89, sosyal: 3.02, matematik: 3.02, fen: 3.06 },
-    ayt_say: { mat: 3.05, fiz: 2.92, kim: 3.11, biy: 3.08 },
-    ayt_ea: { mat: 3.05, edb: 3.02, tar1: 2.88, cog1: 3.25 },
-    ayt_soz: { edb: 3.02, tar1: 2.88, cog1: 3.25, tar2: 2.95, cog2: 2.95, fel: 3.08, din: 3.31 },
-    ayt_dil: { dil: 3.12 },
-    ranks: {
-      tyt: { 500: 64, 450: 12000, 400: 60000, 350: 180000, 300: 380000, 250: 800000, 200: 1700000 },
-      say: { 500: 231, 450: 18000, 400: 65000, 350: 130000, 300: 220000, 250: 380000, 200: 600000 },
-      ea: { 500: 18, 450: 4000, 400: 30000, 350: 95000, 300: 250000, 250: 500000, 200: 900000 },
-      soz: { 500: 1, 450: 1500, 400: 12000, 350: 55000, 300: 150000, 250: 400000, 200: 1100000 },
-      dil: { 500: 30, 450: 1000, 400: 6000, 350: 18000, 300: 38000, 250: 75000, 200: 130000 }
-    }
+    tyt: { turkce: 2.89, sosyal: 3.02, matematik: 3.02, fen: 3.06, base: 141.9 },
+    say: { tyt_tur: 1.19, tyt_sos: 1.24, tyt_mat: 1.24, tyt_fen: 1.26, ayt_mat: 2.82, ayt_fiz: 2.48, ayt_kim: 2.94, ayt_biy: 3.10, base: 128.23 },
+    ea:  { tyt_tur: 1.17, tyt_sos: 1.22, tyt_mat: 1.22, tyt_fen: 1.23, ayt_mat: 2.78, ayt_edb: 3.14, ayt_tar1: 3.27, ayt_cog1: 3.06, base: 128.96 },
+    soz: { tyt_tur: 1.13, tyt_sos: 1.18, tyt_mat: 1.18, tyt_fen: 1.19, ayt_edb: 3.03, ayt_tar1: 3.16, ayt_cog1: 2.96, ayt_tar2: 3.07, ayt_cog2: 2.99, ayt_fel: 3.67, ayt_din: 2.81, base: 128.44 },
+    dil: { tyt_tur: 1.49, tyt_sos: 1.56, tyt_mat: 1.55, tyt_fen: 1.57, ydt: 2.64, base: 109.86 },
   },
   "2022": {
-    tyt_base: 145.89,
-    say_base: 127.68,
-    ea_base: 127.68,
-    soz_base: 127.68,
-    dil_base: 127.68,
-    tyt: { turkce: 2.84, sosyal: 3.14, matematik: 2.87, fen: 3.13 },
-    ayt_say: { mat: 3.03, fiz: 2.85, kim: 3.07, biy: 3.07 },
-    ayt_ea: { mat: 3.03, edb: 3.03, tar1: 3.15, cog1: 2.15 },
-    ayt_soz: { edb: 3.03, tar1: 3.15, cog1: 2.15, tar2: 3.51, cog2: 2.22, fel: 3.89, din: 2.93 },
-    ayt_dil: { dil: 3.03 },
-    ranks: {
-      tyt: { 500: 60, 450: 11000, 400: 55000, 350: 160000, 300: 350000, 250: 750000, 200: 1600000 },
-      say: { 500: 200, 450: 15000, 400: 55000, 350: 120000, 300: 200000, 250: 350000, 200: 550000 },
-      ea: { 500: 15, 450: 3500, 400: 25000, 350: 85000, 300: 220000, 250: 450000, 200: 850000 },
-      soz: { 500: 1, 450: 1200, 400: 10000, 350: 45000, 300: 130000, 250: 350000, 200: 1000000 },
-      dil: { 500: 25, 450: 800, 400: 5000, 350: 15000, 300: 32000, 250: 65000, 200: 110000 }
-    }
+    tyt: { turkce: 2.84, sosyal: 3.14, matematik: 2.87, fen: 3.13, base: 145.89 },
+    say: { tyt_tur: 1.19, tyt_sos: 1.32, tyt_mat: 1.21, tyt_fen: 1.32, ayt_mat: 2.59, ayt_fiz: 3.19, ayt_kim: 2.95, ayt_biy: 3.11, base: 125.41 },
+    ea:  { tyt_tur: 1.22, tyt_sos: 1.35, tyt_mat: 1.23, tyt_fen: 1.34, ayt_mat: 2.65, ayt_edb: 3.21, ayt_tar1: 3.33, ayt_cog1: 2.28, base: 127.4 },
+    soz: { tyt_tur: 1.15, tyt_sos: 1.27, tyt_mat: 1.16, tyt_fen: 1.27, ayt_edb: 3.03, ayt_tar1: 3.15, ayt_cog1: 2.15, ayt_tar2: 3.51, ayt_cog2: 2.22, ayt_fel: 3.89, ayt_din: 2.93, base: 127.68 },
+    dil: { tyt_tur: 1.47, tyt_sos: 1.62, tyt_mat: 1.48, tyt_fen: 1.62, ydt: 2.62, base: 110.47 },
   },
   "2021": {
-    tyt_base: 97.34,
-    say_base: 99.42,
-    ea_base: 97.34,
-    soz_base: 92.9,
-    dil_base: 95.0,
-    tyt: { turkce: 2.92, sosyal: 2.98, matematik: 4.53, fen: 3.18 },
-    ayt_say: { mat: 3.12, fiz: 2.91, kim: 3.15, biy: 3.15 },
-    ayt_ea: { mat: 3.12, edb: 3.01, tar1: 3.33, cog1: 2.35 },
-    ayt_soz: { edb: 3.01, tar1: 3.33, cog1: 2.35, tar2: 4.98, cog2: 2.61, fel: 3.65, din: 2.74 },
-    ayt_dil: { dil: 3.20 },
-    ranks: {
-      tyt: { 500: 40, 450: 5000, 400: 30000, 350: 95000, 300: 200000, 250: 500000, 200: 1000000 },
-      say: { 500: 100, 450: 4000, 400: 20000, 350: 50000, 300: 95000, 250: 180000, 200: 350000 },
-      ea: { 500: 10, 450: 1500, 400: 12000, 350: 45000, 300: 110000, 250: 250000, 200: 550000 },
-      soz: { 500: 1, 450: 600, 400: 6000, 350: 28000, 300: 80000, 250: 220000, 200: 700000 },
-      dil: { 500: 10, 450: 300, 400: 2500, 350: 8000, 300: 20000, 250: 45000, 200: 85000 }
-    }
+    tyt: { turkce: 2.92, sosyal: 2.98, matematik: 4.53, fen: 3.18, base: 97.34 },
+    say: { tyt_tur: 1.13, tyt_sos: 1.16, tyt_mat: 1.76, tyt_fen: 1.24, ayt_mat: 3.40, ayt_fiz: 3.48, ayt_kim: 2.46, ayt_biy: 2.21, base: 98.19 },
+    ea:  { tyt_tur: 1.20, tyt_sos: 1.22, tyt_mat: 1.86, tyt_fen: 1.31, ayt_mat: 3.60, ayt_edb: 3.03, ayt_tar1: 3.35, ayt_cog1: 2.37, base: 92.49 },
+    soz: { tyt_tur: 1.19, tyt_sos: 1.22, tyt_mat: 1.85, tyt_fen: 1.30, ayt_edb: 3.01, ayt_tar1: 3.33, ayt_cog1: 2.35, ayt_tar2: 4.98, cog2: 2.61, ayt_fel: 3.65, ayt_din: 2.74, base: 92.9 },
+    dil: { tyt_tur: 1.54, tyt_sos: 1.57, tyt_mat: 2.38, tyt_fen: 1.68, ydt: 2.52, base: 95.37 },
+  },
+  "2020": {
+    tyt: { turkce: 3.24, sosyal: 3.66, matematik: 3.34, fen: 3.41, base: 99.42 },
+    say: { tyt_tur: 1.38, tyt_sos: 1.56, tyt_mat: 1.43, tyt_fen: 1.46, ayt_mat: 2.71, ayt_fiz: 3.15, ayt_kim: 2.77, ayt_biy: 3.31, base: 99.13 },
+    ea:  { tyt_tur: 1.38, tyt_sos: 1.55, tyt_mat: 1.42, tyt_fen: 1.45, ayt_mat: 2.69, ayt_edb: 3.18, ayt_tar1: 3.54, ayt_cog1: 2.96, base: 98.19 },
+    soz: { tyt_tur: 1.35, tyt_sos: 1.53, tyt_mat: 1.37, tyt_fen: 1.42, ayt_edb: 3.12, ayt_tar1: 3.47, ayt_cog1: 2.91, ayt_tar2: 3.70, ayt_cog2: 2.60, ayt_fel: 3.22, ayt_din: 3.94, base: 94.45 },
+    dil: { tyt_tur: 1.57, tyt_sos: 1.77, tyt_mat: 1.62, tyt_fen: 1.65, ydt: 2.62, base: 99.02 },
+  },
+  "2019": {
+    tyt: { turkce: 3.1, sosyal: 3.03, matematik: 3.73, fen: 3.49, base: 100.07 },
+    say: { tyt_tur: 1.23, tyt_sos: 1.2, tyt_mat: 1.48, tyt_fen: 1.38, ayt_mat: 2.98, ayt_fiz: 3.11, ayt_kim: 3.13, ayt_biy: 3.08, base: 99.62 },
+    ea:  { tyt_tur: 1.31, tyt_sos: 1.28, tyt_mat: 1.57, tyt_fen: 1.47, ayt_mat: 3.17, ayt_edb: 3.00, ayt_tar1: 2.99, ayt_cog1: 2.40, base: 98.24 },
+    soz: { tyt_tur: 1.39, tyt_sos: 1.36, tyt_mat: 1.67, tyt_fen: 1.56, ayt_edb: 3.19, ayt_tar1: 3.18, ayt_cog1: 2.55, ayt_tar2: 3.34, ayt_cog2: 2.75, ayt_fel: 3.14, ayt_din: 3.32, base: 95.11 },
+    // 2019 DİL verisi tabloda yoktu, 2020 katsayılarını yaklaşık olarak kullanabiliriz veya boş bırakabiliriz.
+    // Burada 2020'yi kopyalayalım veya kullanıcıya bildirelim.
+    dil: { tyt_tur: 1.57, tyt_sos: 1.77, tyt_mat: 1.62, tyt_fen: 1.65, ydt: 2.62, base: 99.02 },
   }
 };
+
+export type YksData = typeof YKS_DATA;
+export type YksYear = keyof YksData;
