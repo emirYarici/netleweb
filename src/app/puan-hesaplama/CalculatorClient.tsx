@@ -245,23 +245,7 @@ export default function YksCalculator() {
 
   return (
     <div className="bg-white font-sans text-gray-900">
-      <header className="fixed top-0 w-full z-50 transition-all border-b border-gray-100 bg-white/80 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="flex items-center justify-between h-20">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 flex items-center justify-center bg-[#3a6ff7] rounded-xl shadow-lg shadow-[#3a6ff7]/20 group-hover:scale-105 transition-all duration-300">
-                <Image src="/logo-square.svg" alt="logo" width={24} height={24} className="brightness-200" />
-              </div>
-              <span className="text-3xl font-black italic tracking-tighter text-[#3a6ff7]">Netle</span>
-            </Link>
-            <nav className="hidden md:flex items-center gap-8">
-              <Link href="/" className="text-sm font-bold text-gray-500 hover:text-[#3a6ff7]">Ana Sayfa</Link>
-              <Link href="/puan-hesaplama" className="text-sm font-bold text-[#3a6ff7]">Hesaplama</Link>
-              <button className="px-6 py-2.5 rounded-full bg-black text-white hover:bg-black/90 transition-all shadow-xl text-xs font-black italic uppercase tracking-tighter">App Store İNDİR</button>
-            </nav>
-          </div>
-        </div>
-      </header>
+
 
       <main className="max-w-7xl mx-auto px-6 pt-32 pb-6 grid lg:grid-cols-12 gap-12">
         <div className="lg:col-span-12 xl:col-span-8 space-y-10">
